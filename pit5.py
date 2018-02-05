@@ -807,23 +807,23 @@ def show2():
 #preratings()
 ### Pavlovian phase ###
 #ppdata()
-#instructions1()
-#instructions2()
-#blockpav()
-#instructions3()
-#asking()
+instructions1()
+instructions2()
+blockpav()
+instructions3()
+asking()
 ### transfer phase ###
-#instructions4()
+instructions4()
 blocktransfer()
-#instructions5()
-#postratings()
-#instructions6()
-#yourchoice  = getchoice() #with this you get a rand number between the lenght of the list of the choices... this in order to randomly call a number that will the be used to call one of the chocies inside the list
-#hundred = genssll (yourchoice,5) #here you can define the chance.. so how many repetitions in a series of 100
-#result = getnum() # the same just creates one rand num from the whole set of 100 that includes the choice appended in order to get a random number to call the order of a number of the list
-#show()
-#show2()
-#instructions7()
+instructions5()
+postratings()
+instructions6()
+yourchoice  = getchoice() #with this you get a rand number between the lenght of the list of the choices... this in order to randomly call a number that will the be used to call one of the chocies inside the list
+hundred = genssll (yourchoice,5) #here you can define the chance.. so how many repetitions in a series of 100
+result = getnum() # the same just creates one rand num from the whole set of 100 that includes the choice appended in order to get a random number to call the order of a number of the list
+show()
+show2()
+instructions7()
 
 #close window
 win.close()
